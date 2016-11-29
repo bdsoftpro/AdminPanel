@@ -1,0 +1,32 @@
+{
+    "name": "sbd/panel",
+    "description": "This laravel admin panel",
+    "keywords": ["laravel", "admin", "panel"],
+    "license": "MIT",
+    "version":"1.0.0",
+    "homepage": "http://www.softwarebd.ml/panel/",
+    "support": {
+        "issues": "http://www.softwarebd.ml/panel/issues",
+        "source": "http://www.softwarebd.ml/panel"
+    },
+    "authors": [
+        {
+            "name": "Md Delwar Hossain",
+            "email": "delwar0cse@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.3.*",
+        "intervention/image": "^2.3",
+        "doctrine/dbal": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SBD\\Panel\\": "/src"
+        }
+    },
+    "suggest": {
+        "marktopper/doctrine-dbal-timestamp-type": "Required for using the database rig for MySQL."
+    },
+    "minimum-stability": "stable"
+}
